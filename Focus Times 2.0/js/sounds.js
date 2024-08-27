@@ -1,0 +1,5 @@
+export const buttonPress = new Audio("../sounds/button-press.wav")
+export const cafeteriaSound = new Audio("../sounds/Cafeteria.wav")
+export const rainSound = new Audio("../sounds/Chuva.wav")
+export const forestSound = new Audio("../sounds/Floresta.wav")
+export const fireplaceSound = new Audio("../sounds/Lareira.wav")

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus-Times 2.0</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <script src="./js/script.js" defer type="module"></script>
+
+</head>
+<body>
+  <div id="focustimer">
+
+    <div class="col-1">
+
+      <span id="minuts">25</span>
+      <span>:</span>
+      <span id="seconds">00</span>
+
+      <section class="buttons">
+        <button
+          data-action="play">
+          <img src="./svg/play.svg" alt="play">
+        </button>
+
+        <button
+          data-action="pause">
+          <img src="./svg/stop.svg" alt="pause">
+        </button>
+
+        <button
+          data-action="addOneMore">
+          <img src="./svg/+.svg" alt="+">
+        </button>
+
+        <button
+          data-action="removeOne">
+          <img src="./svg/-.svg" alt="-">
+        </button>
+
+      </section>
+
+    </div>
+
+    <div class="col-2">
+      
+      <div class="treecafeteria">
+  
+        <button>
+          <i class="ph ph-tree"></i>
+        </button>
+  
+        <button>
+          <i class="ph ph-storefront"></i>
+        </button>
+
+      </div>
+      
+      <div class="rainfireplace">
+
+        <button>
+          <i class="ph ph-cloud-rain"></i>
+        </button>
+        
+        <button>
+          <i class="ph ph-fire"></i>
+        </button>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
